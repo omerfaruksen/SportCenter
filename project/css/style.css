@@ -1,0 +1,801 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+.bg-dark{
+    background-color: #355592 !important; 
+}
+/*Header bacground settings*/
+header{
+    display: flex;
+    background-image: url(../images/hero-man.jpg);
+    height: 100vh;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+/*Navbar settings*/
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: #305591; */
+    align-items: center;
+    z-index: 10;
+}
+.menu-btn{
+    display: none;
+}
+.menu-icon{
+    display: none;
+}
+.menu{
+    display: flex;
+    gap: 50px;
+    color: white;
+}
+.menu>a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.join{
+    border: 1px solid orange;
+    padding: 2px 5px; 
+    background-color: orange;
+    border-radius: 3px;
+    align-items: center;
+    /* margin-right: 220px; */
+}
+/*Header text and buttons settings*/
+.headline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    padding-top: 100px;
+}
+.headline>h2{
+    display: block;
+    color: white;
+    font-size: 6rem;
+    font-weight: bold;
+    
+}
+/*POWERFULL button settings*/
+.btn-power{
+    background-color: #325492;
+    padding: 7px 12px;
+    border-radius: 2.5px;
+    color: white;
+    font-weight: bold;
+}
+.paragraph{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+ 
+}
+.paragraph>p{
+    background-color: rgb(0,0,0,0.7);
+    color: white;
+    font-size: 2rem;
+}
+/*Sign In button settings*/
+.btn-sign{
+    background-color: #325492;
+    padding: 7px 12px;
+    border-radius: 2.5px;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+/*Details button settings*/
+.btn-details{
+    background-color: transparent;
+    padding: 7px 12px;
+    border-radius: 2.5px;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/*Box settings*/
+.boxes{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 50px;
+    background-color:#F1F8FF ;
+    /* flex-wrap: wrap; */
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: white;
+}
+/* Settings of the elements in the box */
+.numbers{
+    color: #345B8D;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.titles{
+    font-weight: bolder;
+    font-size: 1.25rem;
+}
+
+/*Our Classes Settings Start*/
+.classes-bg{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+.ourclasses{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F6F6;
+    z-index: 1;
+    
+    
+}
+.ourclasses::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    clip-path: polygon(43% 0, 56% 90%, 100% 90%, 100% 100%, 0 100%, 0 0);
+    z-index: -5;
+}
+.start-calsses{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    z-index: 1000;
+    
+}
+.start-calsses>h2{
+    color: blue;
+    padding-bottom: 10px ;
+}
+/*Our Classes underline settings*/
+.line{
+    border: 1px solid orange;
+    border-radius: 2.5px;
+    background-color: orange;
+    width: 75px;
+    height: 5px;
+    margin-bottom:  50px;
+}
+
+.start-calsses>p{
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    width: 40%;
+}
+.start-calsses>h2{
+    color:#305591;
+}
+
+/*Buttons settings in Our Clesses => değerlendirme formu 11. ister*/
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 190px;
+}
+
+.hover-button{
+    position: relative;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px 20px;
+    color: white;
+    background-color:  #325492 ;
+    border-radius: 4px;
+    border: none;
+    box-shadow: none;
+    margin-bottom:  20px;
+}
+
+/*Yoga of button settings*/
+.btn1-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    
+}
+.div-img>img{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+}
+.div-text{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    
+}
+.why-yoga{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.75rem;
+    
+}
+.yoga-time{
+    font-weight: 200;
+    line-height: 1.5rem;
+    
+}
+/*BMI Calculator settings*/
+.calculator-content{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.bmi-calculator{
+    width: 55%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+}
+.calculator>h2{
+    color: #325492 ;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.calculator>p{
+    font-size: 1rem;
+    font-weight: bold;
+}
+/*Calculator image settings => Değerlendirme formu 8 */
+.calculator-img{
+    position: relative;
+}
+.calculator-img:after {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    top: 95%;
+    left: 50%;
+    background-color: orange;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+/*Inputs settings*/
+.input>input{
+    border: 1px solid black;
+    padding: 5px 0;
+    border-radius: 2.5px;
+}
+/*Our Best Trainers Settings Start*/
+.trainers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F1F8FF;
+    z-index: 1;
+}
+.start-trainers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.start-trainers>p{
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    width: 40%;
+}
+.start-trainers>h2{
+    color: #305591;
+    padding-bottom: 10px;
+}
+.trainers-img{
+    display: flex;
+    gap:100px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+/*Trainer :hover settings => Değerlendirme formu 12. ister*/
+.trainer{
+    position: relative; 
+    z-index: 2; 
+}
+.trainer-2{
+    position: relative;
+}
+.name{
+    position: relative;
+}
+.name2{
+    position: relative;
+}
+
+.name::after{
+    position: absolute;
+    content: "";
+    top: 80%;
+    left: 50%;
+    width: 65%;
+    height: 30%;
+    transform: translate(-50%,-50%);
+    background: #355592;
+    z-index: -4;
+}
+.name2::after{
+    position: absolute;
+    content: "Ömer Faruk ŞEN Cardio Trainer";
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 2rem;
+    justify-content: center;
+    top: 80%;
+    left: 50%;
+    width: 85%;
+    height: 20%;
+    transform: translate(-50%,-50%);
+    background: #355592;
+    z-index: -3;
+}
+.name:hover.name::after{
+    z-index: 1;
+}
+.name2:hover.name2::after{
+    z-index: 5;
+}
+
+
+.trainer::after{
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    width: 55%;
+    height: 106%;
+    transform: translate(-50%,-50%);
+    background: #355592;
+    transform-origin: center center;
+    z-index: -1;
+}
+.trainer-2::after{
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    width: 108% ;
+    height: 50%;
+    transform: translate(-50%, -50%);
+    background: #355592;
+    z-index: -2;
+}
+.trainer:hover.trainer::after{
+    width: 75%;
+}
+.trainer-2:hover.trainer-2::after{
+    height: 75%;
+}
+.name2>img{
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+.purchase{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    
+}
+.purchase-cards{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 15px;
+    padding-bottom: 35px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card>h2{
+    padding-top: 10px;
+}
+.card>img{
+    border-radius: 15px 15px 0 0;
+    object-fit:cover;
+    width: 250px;
+    height: 350px;
+}
+.line-through{
+    text-decoration: line-through;
+}
+.icons{
+    width: 15px;
+    height: 15px;
+}
+.add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+.add>button{
+    font-weight: 600;
+    width: 200px;
+    background-color: white;
+    border: none;
+
+}
+/*Review settings*/
+
+.review{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F1F8FF;
+
+}
+.start-review{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.start-review>h2{
+    color: #305591;
+}
+.comments{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.comment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 20px;
+    background-color: #F1F8FF;
+}
+.people{
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+}
+
+.people-name{
+    display: block;
+}
+.people-img>img{
+    border-radius: 50%;
+    width: 50px;
+}
+.coment-area{
+    justify-content: center;
+    align-items: center;
+    text-align:left;
+    font-size: medium;
+    font-weight: 200;
+    color: white;
+    width: 450px;
+    height:  100px;
+    background-color: #355592;
+}
+
+.coment-area>p{
+    padding-top:12px ;
+    padding-left: 8px;
+}
+.img-position{
+    display: flex;
+    justify-content: space-between;
+}
+.comment-area-img{
+    width:  30px;
+    height: 30px;
+    background-color: #8096BE;
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
+.comment-area-img-2{
+    width:  30px;
+    height: 30px;
+    background-color: #8096BE;
+    clip-path: polygon(100% 0, 0 0, 0 100%);
+}
+
+/*Contact Us settings*/
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+
+}
+.contactus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.contactus>h2{
+    color: #305591;
+}
+.form-map{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.information-space{
+    line-height: 2rem;
+}
+.email-phone{
+    display: flex;
+    gap: 10px;
+}
+.information-form{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.information-form>h2{
+    line-height: 4rem;
+}
+input , textarea{
+    background-color: #F1F8FF;
+    border: none;
+    padding: 5px 2;
+}
+/* Google Maps Değerlendirme formu 13. ister*/
+.googleMap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Footer Settings*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #325493;
+}
+.footer-logo{
+    display: flex;
+    justify-content: left;
+    width: 70%;
+    
+}
+.footer-text{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    text-align: left;
+    width: 70%;
+    padding-bottom: 10px;
+}
+.information-help{
+    display: flex;
+    justify-content: space-around;
+    gap: 300px;
+    padding-bottom: 10px;
+}
+.information>ul>li{
+    list-style-type: none;
+}
+.information>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+.information>h2{
+    color: white;
+}
+.help>ul>li{
+    list-style-type: none;
+}
+.help>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+.help>h2{
+    color: white;
+    line-height: 3rem;
+}
+
+/* Responsive Settings => Değerlendirme formu 7. ister*/
+@media screen and (max-width: 576px) {
+    /* .menu-btn{
+        display: block;
+    } */
+    nav{
+        width: 100%;
+    }
+    .menu{
+        position: absolute;
+        transform: translateY(-400%);
+    }
+    .menu-btn:checked ~.menu{
+        display: block;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        transform: translateY(0);
+        background-color: #325492;
+        border-top: 1.1rem solid rgba(0, 0, 0, 0.2);
+        transition: 0.2s linear;
+    }
+    .menu-btn:checked ~.menu a{
+        display: block;
+        text-align: center;
+        padding: 0px 10px;
+        color: white;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+    .menu-icon {
+        font-size: 3rem;
+        display: block;
+        color: white;
+        cursor: pointer;
+        
+    }
+    .menu-icon svg {
+        width: 20px; 
+        height: auto; 
+        fill: #ffffff;
+    }
+    .boxes{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .box{
+        width: 80%;
+    }
+    .buttons{
+        flex-wrap: wrap;
+        align-items: none;
+        gap: 2;
+        row-gap: 0;
+        
+    }
+    .btn1-div{
+        flex-wrap: wrap;
+        
+    }
+    .bmi-calculator{
+        flex-wrap: wrap;
+    }
+    .trainers-img{
+        flex-direction: column;
+    }
+    .purchase-cards{
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+    }
+    .card{
+        width: 80%;
+        height: auto;
+    }
+    .card img{
+        width: 100%;
+        height: 100%;
+    }
+    .comments{
+        flex-wrap: wrap;
+    }
+    .form-map{
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+    .footer{
+        width: 100%;
+
+    }
+    
+    .information-help{
+        gap: 70px;
+    }
+    .headline h2{
+        font-size: 50px;
+    }
+    .btn-details{
+        display: block;
+        width: 100%;
+    }
+    .btn-sign{
+        display: block;
+        width: 100%;
+    }
+    .div-text{
+        display: flex;
+        width: auto;
+    }
+    .div-img img{ 
+        max-width: 100%;
+       
+    }
+    .name2{
+        display: flex;
+        justify-content: center;
+    }
+    .name{
+        display: flex;
+        justify-content: center;
+    }
+    .trainer-2{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .trainer{
+        display: flex;
+        justify-content: center;
+        left: 25%;
+        width: 50%;
+        
+    }
+    .trainers-img{
+        display: flex;
+        justify-content: center;
+    }
+}
