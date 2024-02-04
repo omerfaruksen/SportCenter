@@ -1,6 +1,6 @@
 # SportCenter
 HTML Js ve CSS kullanılarak hazırlanmış bir proje ve 576px responsive olarak tasarlanmıştır.
-İlgili görseller aşağıda verilmiştir.
+Kendi large ekranım ve 576px görünüm ilgili görseller aşağıda verilmiştir.
 
 ![576 7](https://github.com/omerfaruksen/SportCenter/assets/109878350/73accf62-6d48-4c48-bcd4-80e35fc12317)
 ![576 6](https://github.com/omerfaruksen/SportCenter/assets/109878350/c57a06e8-4c52-4a99-b06c-d76b42b7a910)
